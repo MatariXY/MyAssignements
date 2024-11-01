@@ -40,7 +40,7 @@ print(house.status)
 
 house.sell_house(buyer)
 
-house = House("123456", 50000, seller)  # ახალი ობიექტი იგივე ID-ით
+house = House("123456", 50000, seller)
 house.sell_house(buyer, loan_amount=20000)
 
 print(seller)
